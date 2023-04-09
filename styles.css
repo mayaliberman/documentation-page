@@ -16,14 +16,7 @@ header {
 
 
 
-main {
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 300px;
-    padding: 20px;
-    
-}
+
 
 
 
@@ -53,14 +46,27 @@ section article {
     display: block;
 }
 
-nav {
-    position: fixed;
-    min-width: 300px;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-right: 1px solid rgba(0, 22, 22, 0.4);
+
+@media only screen and (min-width: 768px) {
+    main {
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 300px;
+            padding: 20px;
+    
+        }
+    nav {
+        position: fixed;
+        min-width: 300px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-right: 1px solid rgba(0, 22, 22, 0.4);
+    }
 }
+
+
 
 ul {
     display: block;
